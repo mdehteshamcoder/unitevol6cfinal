@@ -1,0 +1,97 @@
+.formdata {
+    width: 20%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(231, 51, 150);
+    margin-top: 30px;
+    padding : 10px 10px 10px 10px;
+    background-color: rgb(214, 233, 190);
+  }
+  
+  
+  .homeitems{
+  
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  .loginimg{
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    margin-top: 60px;
+    
+    border-radius: 45px;
+    margin-bottom: -20px;
+  }
+  
+  .table{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    height: 600px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    grid-template-rows: auto;
+  }
+  
+  
+  
+  .item-price {
+    width: 60px;
+    padding: 10px;
+    background-color: rgb(107, 212, 107);
+    border-radius: 10px;
+    color: inherit;
+  }
+  
+  
+  .pagination{
+    margin-top: 80px;
+    margin-left: 50%;
+  }
+
+  .home-items, .individual-items{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+   
+  }
+  .item-rating {
+    width: 60px;
+    padding: 8px;
+    background-color: pink;
+    border-radius: 10px;
+  }
+  .inside-home, .inside-indi{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .inside-home img , .inside-indi img{
+    width: 100%;
+    height: 300px;
+    
+  }
+  .inside-home button, .inside-indi button {
+    color: aquamarine;
+    background-color: rgb(154, 240, 137);
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+  }
+  table{
+    width: 60%;
+    margin: auto;
+  }
+
+  table , tr, td , th {
+    border: 1px solid gray;
+  }
